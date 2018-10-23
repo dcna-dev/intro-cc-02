@@ -1,4 +1,4 @@
-def insercao_direta(lista):
+def insertion_sort(lista):
 
 
     for i in range(1, len(lista)):
@@ -15,4 +15,4 @@ def test_insercao_direta():
 
     lista = [3,1,6,2,4,0]
 
-    assert insercao_direta(lista) == [0, 1, 2, 3, 4, 6]
+    assert insertion_sort(lista) == [0, 1, 2, 3, 4, 6]
